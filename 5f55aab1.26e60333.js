@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{110:function(l){l.exports=JSON.parse('{"allTagsPath":"/BluePrints-UI-Docs-2.0/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/BluePrints-UI-Docs-2.0/blog/tags/hello"}')}}]);
