@@ -7,6 +7,7 @@ branches:
 cache:
   yarn: true
 deploy:
+  provider: heroku
   api_key:
     secure: TXWdx0Kud6kPrPdgkDko2rHkvzFfhrpueebn12oao2S44c0zI5+j8uQWIg3sAcvcI8+y67rG1MA+FW7sc6EtEhFnPLL5z6sMUIQC1jCas4OSiQqHtJewzddh5iamDX6J/FJc287djyVURYMQ7GYDn9q4nuQ4a/xLdeTm4lbk3TG3tA8rUSmEUTNUx0ZVo/N3gr4kbqVlsy0Cj/71a0/NqZVAEr/m/ZK9xmm+jd8xpuiojlsrmxD6m6oHHJuSOAi/WLaE0mIDkUfJTTxLWXsQCQwfTqE22PvV6c4rtHfekipliIu1NBclCZ8GqgjqUs6xioM79/hZmgT2rvjLSo5k4gVhzTF45H1SilRfTg4PgEcFVmtRokrZZ/4oYAH2Rn/t3ioeQv/0mryjvMCf4/rednuT/Opsssa9Kt/YTN4Zzd1okTkJ+sC/GcadtmoR9GIfe3g+CA3y+0IAqd1bdRe0KT9LJTP+PDxvLPV0XSx/B1tB0QR24APX/3Xsj+vp6CtmeK3Ulmnav2CqOvJTq9Vp53Pwj+lEVDbGXhzthHGFnbgSgNJFcSjU5v40Z43YauPIufJP2W/JhRcJITCdrzThlkUD62EqfNWqPwEvITVU4+duH9ngV78fMrLT4Q22+X690EUB5w6m4sfjUVUc+eGziHIEQB7IFSGGbhK8VZ6rKZk=
     app: blueprints-ui-docs
