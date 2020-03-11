@@ -1,11 +1,11 @@
 module.exports = {
   title: 'My Site',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://blueprints-ui.com',
+  baseUrl: '/home',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'JakeAdmire', // Usually your GitHub org/user name.
+  projectName: 'BluePrints-UI-2.0', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
