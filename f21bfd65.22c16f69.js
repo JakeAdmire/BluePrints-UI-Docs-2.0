@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[25],{124:function(o){o.exports=JSON.parse('{"allTagsPath":"/BluePrints-UI-Docs-2.0/blog/tags","slug":"facebook","name":"facebook","count":1,"permalink":"/BluePrints-UI-Docs-2.0/blog/tags/facebook"}')}}]);
