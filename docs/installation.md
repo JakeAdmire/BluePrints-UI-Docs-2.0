@@ -8,7 +8,8 @@ keywords:
 sidebar_label: Installation
 ---
 
-import { BrandHighlight, Subtitle } from '../src/Components/DocComponents.jsx';
+import { BrandHighlight } from '../src/Components/BrandHighlight/BrandHighlight';
+import { Subtitle } from '../src/Components/Subtitle/Subtitle';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
