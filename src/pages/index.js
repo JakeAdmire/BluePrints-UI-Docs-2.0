@@ -78,7 +78,7 @@ function Home() {
                 styles.getStarted,
               )}
               id={styles.getStarted}
-              to={useBaseUrl('docs/doc1')}>
+              to={useBaseUrl('docs/installation')}>
               Get Started
             </Link>
             <Link
@@ -87,7 +87,7 @@ function Home() {
                 styles.getStarted,
               )}
               id={styles.learnMore}
-              to={useBaseUrl('docs/doc1')}>
+              to={useBaseUrl('docs/introduction')}>
               Learn More
             </Link>
           </div>
