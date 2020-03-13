@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'JakeAdmire', // Usually your GitHub org/user name.
-  projectName: 'BluePrints-UI', // Usually your repo name.
+  projectName: 'BluePrints-UI-Docs-2.0', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'BluePrints-UI',
