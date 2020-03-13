@@ -59,7 +59,7 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title=""
+      title="Home"
       description="Description will go into a meta tag in <head />"
       keywords={[
 
