@@ -3,12 +3,47 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
+.prettyLink { position: relative; }
+
+.prettyLink:hover { text-decoration: none; }
+
+.prettyLink::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 100%;
+  top: 1.8rem; bottom: -3px;
+  background-color: var(--ifm-link-color);
+
+  transition: right .3s;
+}
+
+.prettyLink:hover::after {
+  right: 0;
+}
 
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  /*  */
+  position: relative;
+  background: linear-gradient(45deg, #0097e1, #90ec19);
+}
+
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(45deg, #ffffff0d 90px, #ffffff1a 100px);
+}
+
+.customContainer {
+  z-index: 1;
+  animation: heroFade 1.5s forwards 0s ease;
 }
 
 @media screen and (max-width: 966px) {
@@ -21,6 +56,38 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0;
+  animation: CTAFade 1.5s forwards 1s ease;
+}
+
+.buttons * {
+  margin: 0 1rem;
+}
+
+#getStarted {
+  background-color: white;
+  color: #5fc3a4;
+  transition: opacity .3s, transform .3s;
+}
+
+#getStarted:hover {
+  opacity: 0.8;
+}
+
+#learnMore {
+  color: white;
+  transition: color .3s, background-color .3s, transform .3s;
+}
+
+#learnMore:hover {
+  background-color: white;
+  border-color: white;
+  color: #5fc3a4;
+}
+
+#getStarted:active,
+#learnMore:active {
+  transform: scale(0.95);
 }
 
 .features {
@@ -33,4 +100,27 @@
 .featureImage {
   height: 200px;
   width: 200px;
+}
+
+/* ANIMATIONS */
+@keyframes heroFade{
+  0%{
+      transform: translateY(-100%);
+      opacity: 0;
+      }
+  100%{
+      transform: translateY(0);
+      opacity: 1;
+      }
+}
+
+@keyframes CTAFade{
+  0%{
+      transform: translateY(100%);
+      opacity: 0;
+      }
+  100%{
+      transform: translateY(50%);
+      opacity: 1;
+      }
 }
