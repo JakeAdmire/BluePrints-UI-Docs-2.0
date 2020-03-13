@@ -59,20 +59,36 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title=""
+      description="Description will go into a meta tag in <head />"
+      keywords={[
+
+      ]}>
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
-        <div className="container">
+        <div className={classnames('container', styles.customContainer)}>
           <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <p className="hero__subtitle">
+            A cleaner, better design system for&nbsp;
+            <a href="https://reactjs.org" target="_blank" className={styles.prettyLink}>ReactJS</a>
+          </p>
           <div className={styles.buttons}>
             <Link
               className={classnames(
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
+              id={styles.getStarted}
               to={useBaseUrl('docs/doc1')}>
               Get Started
+            </Link>
+            <Link
+              className={classnames(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              id={styles.learnMore}
+              to={useBaseUrl('docs/doc1')}>
+              Learn More
             </Link>
           </div>
         </div>
