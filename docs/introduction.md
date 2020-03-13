@@ -8,7 +8,8 @@ keywords:
 sidebar_label: Introduction
 ---
 
-import { BrandHighlight, Subtitle } from '../src/Components/DocComponents.jsx';
+import { BrandHighlight } from '../src/Components/BrandHighlight/BrandHighlight';
+import { Subtitle } from '../src/Components/Subtitle/Subtitle';
 
 :::important
 Documentation is being worked on; some pages may be incomplete or not yet exist!
