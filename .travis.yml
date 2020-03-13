@@ -7,9 +7,7 @@ branches:
 cache:
   yarn: true
 script:
-- echo "skipping tests"
-deploy:
-  provider: heroku
-  api_key:
-    secure: PUYF6nriDBJSOarjKBS+Yz0q09koJuPj/6qYH57cbeSX8W5wGYv4wndNGoQk+dbpgvLvD9WeKXukcaIuN7GhizQO5ZlGMDQWuoXOOewbgpd+wpK/Xp3xdgmmybGbFDJFxu9ba+76ddJHcpz8cH6Wab1L5g6F5H1aDFB7vEpeY/TX+0I9lcJiFV/uQ5cezSGv0OnRAsOswOjXEwLdLbT8JQmbKyFElFlwZmLiYERExPBMbWPrSQr7ssAXpYQTI5vBtmLqjbrvK7TaQcZfbQhM4tITM3Ug12v3J495qKu9HBdxgzalzOY1ONOi6sG50+xdwwDiSd1s88qPHxJA3ScYGxC/jcSleNzQY/JN4tvnpFV6+qUBcPHBh0JHrFTj+v2Mblt36uJZ2RLCNWLR25jujVtGgl2e30p3ZcQP6afRsk5aoq52nbXdmqpPQp7b7clB+w4tdPx2tGg9ADP6lQ/rZukl/8qPulmczSa7amuIAeh8QEtN7yJzcByfB17fqePes5wd86ms+Ty0EignUC3eLnYmRTp1ZgoascC2JSsRQFNXtQ4WxxFJHKGReMssW1OyuFRh+Kz9p2ijglI4tuJkwix+i1+g2rOMEEU8rUa/iBxq5uuDXszVLikB0emHyU9zE8XTDGvSQ9KPRNX9RaqHTO4IdrKABfCs2z1HB2OuR6A=
-  app: blueprints-ui-docs
+  - git config --global user.name "${GH_NAME}"
+  - git config --global user.email "${GH_EMAIL}"
+  - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
+  - yarn && GIT_USER="${GH_NAME}" yarn deploy
