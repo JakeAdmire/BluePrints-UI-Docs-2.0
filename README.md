@@ -9,7 +9,7 @@
     A ReactJS component library & UI design system!
     <br />
     <br />
-    <b><a target="_blank" href="https://blueprints-ui.com/">View Website</a></b>
+    <b><a target="_blank" href="http://blueprints-ui.com/">View Website</a></b>
   </p>
 </p>
 <div align="center">
