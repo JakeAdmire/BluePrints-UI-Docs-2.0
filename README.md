@@ -3,7 +3,7 @@
 
 <br />
 <p align="center">
-  <img src="http://localhost:3000/img/logo.svg" alt="Logo" width="80" height="80">
+  <img src="/static/img/logo.svg" alt="Logo" width="80" height="80">
   <h1 align="center">BluePrints-UI Docs (v2)</h1>
   <p align="center">
     A ReactJS component library & UI design system!
