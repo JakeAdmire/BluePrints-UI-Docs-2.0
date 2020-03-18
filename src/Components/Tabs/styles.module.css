@@ -1,0 +1,15 @@
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+ .tabItem {
+  border-radius: 10px 10px 0 0;
+  transition: all .3s;
+ }
+
+.tabItem:focus {
+  background-color: var(--ifm-hover-overlay);
+  outline: none;
+}
