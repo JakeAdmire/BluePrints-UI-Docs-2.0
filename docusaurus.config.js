@@ -10,8 +10,8 @@ module.exports = {
     navbar: {
       title: 'BluePrints-UI',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.png',
+        alt: 'BluePrints-UI logo',
+        src: 'img/logo.svg',
       },
       links: [
         {
