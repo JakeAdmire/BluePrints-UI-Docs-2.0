@@ -1,33 +1,63 @@
-# Website
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+###### Top
 
-### Installation
+<br />
+<p align="center">
+  <img src="http://localhost:3000/img/logo.svg" alt="Logo" width="80" height="80">
+  <h1 align="center">BluePrints-UI Docs (v2)</h1>
+  <p align="center">
+    A ReactJS component library & UI design system!
+    <br />
+    <br />
+    <b><a href="https://blueprints-ui.com/">View Website</a></b>
+  </p>
+</p>
+<div align="center">
 
-```
-$ yarn
-```
+[![Npm][npm-shield]][npm-url] [![Pages][pages-shield]][pages-url]
+[![LinkedIn][linkedin-shield]][linkedin-url] [![Gmail][gmail-shield]][gmail-url] [![GitHub][github-shield]][github-url] 
+</div>
 
-### Local Development
+## Table of Contents
 
-```
-$ yarn start
-```
+- [About The Project](#About-The-Project)
+  - [Media](#Media)
+  - [Built With](#Built-With)
 
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+## About The Project
 
-### Build
+**BluePrints-UI** is a ReactJS component library & UI design system.
 
-```
-$ yarn build
-```
+This library provides a ton of unique, customizable components that are flexible enough to solve any challenge
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+---
 
-### Deployment
+### Built With:
+- [ReactJS](https://reactjs.org/)
+- [Docusaurus](https://v2.docusaurus.io)
 
-```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
+#### Additional utilities used:
+- [StackEdit](https://stackedit.io/)
+- [Gravit Designer](https://gravit.io/)
+---
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+**[BACK TO TOP](#top)**
+
+<!-- URL References  -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-0077b5.svg?style=for-the-badge&logo=linkedin
+[linkedin-url]: https://linkedin.com/in/jakeadmire
+
+[gmail-shield]: https://img.shields.io/badge/-Email-red.svg?style=for-the-badge&logo=gmail&logoColor=white
+[gmail-url]: mailto:jakeadmire1@gmail.com
+
+[github-shield]: https://img.shields.io/badge/dynamic/json?label=Follow&query=length&url=https://api.github.com/users/jakeadmire/followers&style=for-the-badge&logo=github
+[github-url]: https://github.com/JakeAdmire/
+
+[heroku-shield]: https://img.shields.io/badge/heroku-deployed-lightblue?style=for-the-badge&logo=heroku
+[heroku-url]: https://blueprints-ui.com/home
+
+[npm-shield]: https://img.shields.io/npm/v/blueprints-ui?style=for-the-badge
+[npm-url]: https://www.npmjs.com/package/blueprints-ui
+
+[pages-shield]: https://img.shields.io/badge/github-deployed-24292e?style=for-the-badge&logo=github
+[pages-url]: https://blueprints-ui.com/
