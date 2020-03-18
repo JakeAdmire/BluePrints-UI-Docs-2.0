@@ -9,12 +9,13 @@
     A ReactJS component library & UI design system!
     <br />
     <br />
-    <b><a href="https://blueprints-ui.com/">View Website</a></b>
+    <b><a target="_blank" href="https://blueprints-ui.com/">View Website</a></b>
   </p>
 </p>
 <div align="center">
 
 [![Npm][npm-shield]][npm-url] [![Pages][pages-shield]][pages-url]
+
 [![LinkedIn][linkedin-shield]][linkedin-url] [![Gmail][gmail-shield]][gmail-url] [![GitHub][github-shield]][github-url] 
 </div>
 
