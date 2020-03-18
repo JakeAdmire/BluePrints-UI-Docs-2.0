@@ -10,8 +10,8 @@ sidebar_label: Installation
 
 import { BrandHighlight } from '../src/Components/BrandHighlight/BrandHighlight';
 import { Subtitle } from '../src/Components/Subtitle/Subtitle';
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+import { TabItem } from '../src/Components/TabItem/TabItem';
+import { Tabs } from '../src/Components/Tabs/Tabs';
 
 :::important
 Documentation is being worked on; some pages may be incomplete or not yet exist!
@@ -45,5 +45,5 @@ yarn add @blueprints-ui
 </TabItem>
 </Tabs>
 
-> Please note that react >= 16.12.0 and react-dom >= 16.12.0 are peer dependencies.
+> Please note that `react >= 16.12.0` and `react-dom >= 16.12.0` are peer dependencies.
 
