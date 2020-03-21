@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'BluePrints-UI',
+  title: 'blueprints-ui',
   tagline: 'A cleaner, better design system for ReactJS',
   url: 'https://blueprints-ui.com',
   baseUrl: '/',
@@ -8,7 +8,7 @@ module.exports = {
   projectName: 'BluePrints-UI-Docs-2.0', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'BluePrints-UI',
+      title: 'blueprints-ui',
       logo: {
         alt: 'BluePrints-UI logo',
         src: 'img/logo.svg',
@@ -20,13 +20,13 @@ module.exports = {
           position: 'right',
         },
         {
-          to: 'docs/installation',
+          to: 'docs/getting-started/installation',
           activeBasePath: 'docs',
           label: 'Wiki',
           position: 'right',
         },
         {
-          to: 'docs/introduction',
+          to: 'docs/about/introduction',
           activeBasePath: 'docs',
           label: 'About',
           position: 'right',
@@ -54,11 +54,28 @@ module.exports = {
           ],
         },
         {
+          title: 'Contact Info',
+          items: [
+            {
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/jakeadmire/',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/JakeAdmire',
+            },
+            {
+              label: 'Email',
+              href: 'mailto:Jake@blueprints-ui.com',
+            }
+          ],
+        },
+        {
           title: 'Extras',
           items: [
             {
               label: 'Hire Me!',
-              href: 'mailto:JakeAdmire1@gmail.com?Subject=Hi Jake,%20I%20like%20your%20BluePrints-UI%20project!',
+              href: 'mailto:Jake@blueprints-ui.com?Subject=Hi Jake,%20I%20like%20your%20BluePrints-UI%20project!',
             }
           ],
         }
