@@ -1,0 +1,9 @@
+.subheading {
+    color: #757575;
+    position: relative;
+    top: -.6rem;
+}
+
+html[data-theme='dark'] .subheading {
+    color: #929292;
+}
