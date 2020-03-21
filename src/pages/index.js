@@ -66,7 +66,7 @@ function Home() {
       ]}>
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className={classnames('container', styles.customContainer)}>
-          <h1 className="hero__title">{siteConfig.title}</h1>
+          <h1 className="hero__title"><img src="/img/logo.svg" />{siteConfig.title}</h1>
           <p className="hero__subtitle">
             A cleaner, better design system for&nbsp;
             <a href="https://reactjs.org" target="_blank" className={styles.prettyLink}>ReactJS</a>
@@ -78,7 +78,7 @@ function Home() {
                 styles.getStarted,
               )}
               id={styles.getStarted}
-              to={useBaseUrl('docs/installation')}>
+              to={useBaseUrl('docs/getting-started/installation')}>
               Get Started
             </Link>
             <Link
@@ -87,13 +87,14 @@ function Home() {
                 styles.getStarted,
               )}
               id={styles.learnMore}
-              to={useBaseUrl('docs/introduction')}>
+              to={useBaseUrl('docs/about/introduction')}>
               Learn More
             </Link>
           </div>
+          {/* <img src="icons/arrow-down-solid.svg" className={styles.usherIcon} /> */}
         </div>
       </header>
-      <main>
+      {/* <main>
         {features && features.length && (
           <section className={styles.features}>
             <div className="container">
@@ -105,7 +106,7 @@ function Home() {
             </div>
           </section>
         )}
-      </main>
+      </main> */}
     </Layout>
   );
 }

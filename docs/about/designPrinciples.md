@@ -8,10 +8,10 @@ keywords:
 sidebar_label: Principles of Design
 ---
 
-import { BrandHighlight } from '../src/Components/BrandHighlight/BrandHighlight';
-import { Subtitle } from '../src/Components/Subtitle/Subtitle';
+import { BrandHighlight } from '../../src/Components/BrandHighlight/BrandHighlight';
+import { Subheading } from '../../src/Components/Subheading/Subheading';
 
-:::important
+:::important warning:
 Documentation is being worked on; some pages may be incomplete or not yet exist!
 :::
 
@@ -21,4 +21,4 @@ Documentation is being worked on; some pages may be incomplete or not yet exist!
 
 
 ## Principles of design
-<Subtitle text="Some basic guidelines/recommendations on how to use BluePrints-UI" />
+<Subheading text="Some basic guidelines/recommendations on how to use BluePrints-UI" />
