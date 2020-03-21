@@ -8,8 +8,8 @@ keywords:
 sidebar_label: Usage
 ---
 
-import { BrandHighlight } from '../src/Components/BrandHighlight/BrandHighlight';
-import { Subtitle } from '../src/Components/Subtitle/Subtitle';
+import { BrandHighlight } from '../../src/Components/BrandHighlight/BrandHighlight';
+import { Subheading } from '../../src/Components/Subheading/Subheading';
 
 :::important warning:
 Documentation is being worked on; some pages may be incomplete or not yet exist!
@@ -20,7 +20,7 @@ Documentation is being worked on; some pages may be incomplete or not yet exist!
 <BrandHighlight /> is a component library at heart. This means that there's very little boilerplate that you have to do to get started. You just choose which components you'd like to use, and you have immediate access to them.
 
 ## Components
-<Subtitle text="Collections of JSX, logic, and styling" />
+<Subheading text="Collections of JSX, logic, and styling" />
 
 BluePrints-UI provides a full library of React components. To use a <BrandHighlight /> component in your project just import the component by name from 'blueprints-ui' and render it:
 
@@ -47,3 +47,5 @@ Here's an example of how you'd use a `textColor` attribute on a `Button` compone
 ```jsx
 <Button textColor="#FFFFFF" />
 ```
+
+> Each attribute has a dedicated info blurb (with examples) within it's component's page.

@@ -8,19 +8,19 @@ keywords:
 sidebar_label: Installation
 ---
 
-import { BrandHighlight } from '../src/Components/BrandHighlight/BrandHighlight';
-import { Subtitle } from '../src/Components/Subtitle/Subtitle';
-import { TabItem } from '../src/Components/TabItem/TabItem';
-import { Tabs } from '../src/Components/Tabs/Tabs';
+import { BrandHighlight } from '../../src/Components/BrandHighlight/BrandHighlight';
+import { Subheading } from '../../src/Components/Subheading/Subheading';
+import { TabItem } from '../../src/Components/TabItem/TabItem';
+import { Tabs } from '../../src/Components/Tabs/Tabs';
 
-:::important
+:::important warning:
 Documentation is being worked on; some pages may be incomplete or not yet exist!
 :::
 
 ---
 
 ## npm / yarn
-<Subtitle text="Follow these instructions to install &amp; save in your package.json" />
+<Subheading text="Follow these instructions to install &amp; save in your package.json" />
 
 <Tabs
   defaultValue="npm"
