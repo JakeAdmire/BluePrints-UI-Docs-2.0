@@ -3,6 +3,13 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
+ @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+
+ *:not(pre div) {
+  font-family: 'Roboto', sans-serif;
+ }
+
 .prettyLink { position: relative; }
 
 .prettyLink:hover { text-decoration: none; }
@@ -22,6 +29,7 @@
 }
 
 .heroBanner {
+  height: calc(100vh - 60px);
   padding: 4rem 0;
   text-align: center;
   position: relative;
@@ -48,6 +56,22 @@
 .customContainer h1,
 .customContainer p {
   animation: heroFade 1.5s forwards ease;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.customContainer h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-transform: lowercase;
+}
+
+.customContainer h1 img {
+  width: 75px;
+  margin-right: 1rem;
+    
 }
 
 @media screen and (max-width: 966px) {
@@ -96,6 +120,15 @@
   transform: scale(0.95);
 }
 
+.usherIcon {
+  width: 50px;
+  /*  */
+  opacity: 0;
+  transform: translateY(250%);
+  animation:  usherFade 2s forwards 2.5s ease, 
+              usherBlink 4s infinite 4.5s cubic-bezier(0.34, 0.04, 0.26, 0.93);
+}
+
 .features {
   display: flex;
   align-items: center;
@@ -129,4 +162,30 @@
       transform: translateY(20%);
       opacity: 1;
       }
+}
+
+@keyframes usherFade{
+  0%{
+      transform: translateY(250%);
+      opacity: 0;
+      }
+  100%{
+      transform: translateY(150%);
+      opacity: 1;
+      }
+}
+
+@keyframes usherBlink{
+  0%{
+      transform: translateY(150%);
+      opacity: 1;
+      }
+  50%{
+      transform: translateY(175%);
+      opacity: 0.2;
+      }
+  100%{
+      transform: translateY(150%);
+      opacity: 1;
+  }
 }
