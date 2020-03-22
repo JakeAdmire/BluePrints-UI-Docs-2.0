@@ -55,21 +55,29 @@
 
 .customContainer h1,
 .customContainer p {
-  animation: heroFade 1.5s forwards ease;
   font-family: 'Montserrat', sans-serif;
+  /*  */
+  opacity: 0;
+  transform: translateY(-500%);
+  animation: heroFade 2s forwards 1s ease;
 }
 
 .customContainer h1 {
-  font-size: 4rem;
+  font-size: calc(28px + (60 - 28) * ((100vw - 320px) / (1300 - 320))) !important;
   font-weight: 400;
+  white-space: nowrap;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   text-transform: lowercase;
 }
 
+.customContainer p {
+  font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (1300 - 320))) !important;
+}
+
 .customContainer h1 img {
-  width: 75px;
+  width: calc(28px + (75 - 28) * ((100vw - 320px) / (1300 - 320)));
   margin-right: 1rem;
     
 }
@@ -87,7 +95,19 @@
   /*  */
   opacity: 0;
   transform: translateY(150%);
-  animation: CTAFade 1.5s forwards .5s ease;
+  animation: CTAFade 1.5s forwards 3.1s ease;
+}
+
+@media screen and (max-width: 508px) {
+  .buttons {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+  }
+
+  .buttons * {
+    width: calc(120% + (75 - 150) * ((508px - 320px) / (508 - 320)));
+  }
 }
 
 .buttons * {

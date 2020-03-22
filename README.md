@@ -4,9 +4,9 @@
 <br />
 <p align="center">
   <img src="/static/img/logo.svg" alt="Logo" width="80" height="80">
-  <h1 align="center">BluePrints-UI Docs (v2)</h1>
+  <h1 align="center">blueprints-ui docs (v2)</h1>
   <p align="center">
-    A ReactJS component library & UI design system!
+    A cleaner, better design system for <a target="_blank" href="http://reactjs.org">ReactJS</a>
     <br />
     <br />
     <b><a target="_blank" href="http://blueprints-ui.com/">View Website</a></b>
@@ -27,7 +27,7 @@
 
 ## About The Project
 
-**BluePrints-UI** is a ReactJS component library & UI design system.
+**blueprints-ui** is a ReactJS component library & UI design system.
 
 This library provides a ton of unique, customizable components that are flexible enough to solve any challenge
 
@@ -37,7 +37,7 @@ This library provides a ton of unique, customizable components that are flexible
 - [ReactJS](https://reactjs.org/)
 - [Docusaurus](https://v2.docusaurus.io)
 
-#### Additional utilities used:
+#### Notable Mentions:
 - [StackEdit](https://stackedit.io/)
 - [Gravit Designer](https://gravit.io/)
 ---
@@ -53,9 +53,6 @@ This library provides a ton of unique, customizable components that are flexible
 
 [github-shield]: https://img.shields.io/badge/dynamic/json?label=Follow&query=length&url=https://api.github.com/users/jakeadmire/followers&style=for-the-badge&logo=github
 [github-url]: https://github.com/JakeAdmire/
-
-[heroku-shield]: https://img.shields.io/badge/heroku-deployed-lightblue?style=for-the-badge&logo=heroku
-[heroku-url]: https://blueprints-ui.com/home
 
 [npm-shield]: https://img.shields.io/npm/v/blueprints-ui?style=for-the-badge
 [npm-url]: https://www.npmjs.com/package/blueprints-ui
