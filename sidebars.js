@@ -9,7 +9,8 @@ module.exports = {
       'getting-started/usage'
     ],
     'Components': [
-      'components/button'
+      'components/button',
+      'components/tooltip'
     ]
   },
 };
