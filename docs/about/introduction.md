@@ -14,7 +14,7 @@ import { Subtitle } from '../../src/Components/Subtitle/Subtitle';
 
 <Subtitle text="It's great to meet you!" />
 
-:::important warning:
+:::caution warning:
 Documentation is being worked on; some pages may be incomplete or not yet exist!
 :::
 

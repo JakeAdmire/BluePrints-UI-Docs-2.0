@@ -11,7 +11,7 @@ sidebar_label: Usage
 import { BrandHighlight } from '../../src/Components/BrandHighlight/BrandHighlight';
 import { Subheading } from '../../src/Components/Subheading/Subheading';
 
-:::important warning:
+:::caution warning:
 Documentation is being worked on; some pages may be incomplete or not yet exist!
 :::
 
