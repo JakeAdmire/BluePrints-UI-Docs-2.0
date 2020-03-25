@@ -12,7 +12,8 @@ import { BrandHighlight } from '../../src/Components/BrandHighlight/BrandHighlig
 import { Subtitle } from '../../src/Components/Subtitle/Subtitle';
 import { Subheading } from '../../src/Components/Subheading/Subheading';
 import { ComponentWrapper } from '../../src/Components/ComponentWrapper/ComponentWrapper';
-
+import { Bookmark } from '../../src/Components/Bookmark/Bookmark';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { Button } from 'blueprints-ui';
 
 <Subtitle text="Buttons allow users to take action" />
@@ -22,6 +23,10 @@ Documentation is being worked on; some pages may be incomplete or not yet exist!
 :::
 
 ---
+<Bookmark icon={faGithub} 
+          text="View source for this component"
+          link="https://github.com/JakeAdmire/blueprints-ui/tree/master/src/components/Button" />
+<br />
 
 Buttons give users the option to take action and make decisions. Make it as efficient & convenient as possible for them with these pre-built <BrandHighlight override="Button" /> components.
 <br />
