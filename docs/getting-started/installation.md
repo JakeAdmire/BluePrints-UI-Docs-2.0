@@ -13,7 +13,7 @@ import { Subheading } from '../../src/Components/Subheading/Subheading';
 import { TabItem } from '../../src/Components/TabItem/TabItem';
 import { Tabs } from '../../src/Components/Tabs/Tabs';
 
-:::important warning:
+:::caution warning:
 Documentation is being worked on; some pages may be incomplete or not yet exist!
 :::
 

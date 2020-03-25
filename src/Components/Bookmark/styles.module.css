@@ -1,0 +1,23 @@
+.bookmark {
+    display: flex;
+    align-items: center;
+
+    border: solid 1px #0097e0;
+    border-radius: 8px;
+
+    padding: 1rem;
+    padding-left: 0;
+}
+
+.bookmark svg {
+    margin: 0 1rem;
+    font-size: 25px;
+    color: #0097e0;
+}
+
+.bookmark span { 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    letter-spacing: 1px;
+}
