@@ -60,7 +60,8 @@ function Home() {
   return (
     <Layout
       title="Home"
-      description="Description will go into a meta tag in <head />"
+      description="A cleaner, cuter design system for ReactJS"
+      image="/img/opengraph_cover.png"
       keywords={[
 
       ]}>
