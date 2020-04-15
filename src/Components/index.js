@@ -1,7 +1,9 @@
-export { BrandHighlight } from './BrandHighlight/BrandHighlight';
-export { Subtitle } from './Subtitle/Subtitle';
-export { Subheading } from './Subheading/Subheading';
-export { ComponentWrapper } from './ComponentWrapper/ComponentWrapper';
 export { Bookmark } from './Bookmark/Bookmark';
-export { Spacer } from './Spacer/Spacer';
+export { BrandHighlight } from './BrandHighlight/BrandHighlight';
+export { ComponentWrapper } from './ComponentWrapper/ComponentWrapper';
 export { MarkdownModal } from './MarkdownModal/MarkdownModal';
+export { Spacer } from './Spacer/Spacer';
+export { Subheading } from './Subheading/Subheading';
+export { Subtitle } from './Subtitle/Subtitle';
+export { TabItem } from './TabItem/TabItem';
+export { Tabs } from './Tabs/Tabs';
