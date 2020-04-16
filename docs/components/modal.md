@@ -72,7 +72,7 @@ render() {
 <Subheading text='Options that control your component' />
 
 ### open
-<Subheading text='Type: boolean | Default: false' />
+<Subheading text='Type: boolean | Default: false | Required' />
 <Spacer spacing={.5} />
 
 The `open` attribute allows you to pass a boolean specifying whether or not your modal is `open`. We recommend connecting it to a piece of stateful data in order to properly update & re-render.
@@ -97,20 +97,19 @@ class ExampleComponent extends Component {
 <br />
 
 ### closeMethod
-<Subheading text='Type: boolean | Default: false' />
+<Subheading text='Type: function | Default: null | Required' />
 <Spacer spacing={.5} />
 
-What does it do?/What is it for?
+The `closeMethod` attribute calls a passed method whenever a user clicks away from the modal, closing it instantly. The `closeMethod` can be as simple as this:
 
 ```jsx
+<Modal closeMethod={() => this.setState({ isModalOpen: false })}></Modal>
 ```
-<ComponentWrapper>
-</ComponentWrapper>
 <br />
 
 
 ---
-## Usage Examples
+<!-- ## Usage Examples
 
 Test
 <Tabs
@@ -134,7 +133,7 @@ code goes in here...
 ```
 
 </TabItem>
-</Tabs>
+</Tabs> -->
 
 <Spacer spacing={5} />
 
