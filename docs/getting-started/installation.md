@@ -32,14 +32,14 @@ Documentation is being worked on; some pages may be incomplete or not yet exist!
 <TabItem value="npm">
 
 ```bash
-npm install @blueprints-ui
+npm install blueprints-ui
 ```
 
 </TabItem>
 <TabItem value="yarn">
 
 ```bash
-yarn add @blueprints-ui
+yarn add blueprints-ui
 ```
 
 </TabItem>

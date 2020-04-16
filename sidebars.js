@@ -10,6 +10,7 @@ module.exports = {
     ],
     'Components': [
       'components/button',
+      'components/modal',
       'components/tooltip'
     ]
   },

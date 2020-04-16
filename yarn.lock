@@ -1974,10 +1974,10 @@ bluebird@^3.5.5, bluebird@^3.7.1:
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
   integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
 
-blueprints-ui@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/blueprints-ui/-/blueprints-ui-1.0.4.tgz#9044c937c61152912167c60666d33172a6dfaceb"
-  integrity sha512-WvUUyrq9bEa21lMIaCdK44/ZPbnHx0MSFoyT3/8hPnZUEj4zBKuOL9NrjE6c5aXm74GJC0UrusajUicpttF63Q==
+blueprints-ui@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/blueprints-ui/-/blueprints-ui-1.0.6.tgz#166ff16dbc03a3844eac903f74b6a91997681331"
+  integrity sha512-4hngvekJYnClx/Ye7r5W/4wAtHk748W+fVRhrMzu9Rt2mVJ8rnon8lLOzNEm4rlgIP+BNpiCG1ll5Ap2eHfFlQ==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.27"
     "@fortawesome/free-brands-svg-icons" "^5.12.1"
